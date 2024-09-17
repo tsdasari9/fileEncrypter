@@ -1,0 +1,10 @@
+[package]
+name = "file_encrypter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chacha20poly1305 = "0.10"
+rand = "0.8"
+argon2 = "0.4"
+base64 = "0.21"
